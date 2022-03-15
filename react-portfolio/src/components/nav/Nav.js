@@ -5,7 +5,12 @@ import { GiMushroomHouse, GiPerson, GiEvilBook, GiSecretBook, Gi3DHammer, GiConv
 const Nav = () => {
     return (
         <nav>
-        <a href='#'><GiMushroomHouse/></a>
+        <a href='#'><GiMushroomHouse size={'25px'}/></a>
+        <a href='#about'><GiPerson size={'25px'}/></a>
+        <a href='#experience'><GiEvilBook size={'25px'}/></a>
+        <a href='#experienceee'><GiSecretBook size={'25px'}/></a>
+        <a href='#services'><Gi3DHammer size={'25px'}/></a>
+        <a href='#contact'><GiConversation size={'25px'}/></a>
         </nav>
     )
 }

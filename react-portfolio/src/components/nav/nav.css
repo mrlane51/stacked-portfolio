@@ -1,0 +1,19 @@
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    width: max-content;
+    padding: 1rem 2rem;
+    z-index: 1;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 4rem;
+    gap: 1rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: cyan;
+}
