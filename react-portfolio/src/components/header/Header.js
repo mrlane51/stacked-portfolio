@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import Resume from './Resume'
+import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
     return (
@@ -11,6 +12,7 @@ const Header = () => {
                 <h1>MrLane51</h1>
                 <h3 className= 'text-light'>Full Stack Dev</h3>
                 < Resume/>
+                < HeaderSocials/>
             </div>
         </header>
     </div>
