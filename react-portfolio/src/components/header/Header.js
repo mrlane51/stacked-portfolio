@@ -15,11 +15,11 @@ const Header = () => {
                 < Resume/>
                 < HeaderSocials/>
 
-                <div className='pic'>
-                    <img src={HeaderPhoto} alt='pic' />
+                <div className='img'>
+                    <img src={HeaderPhoto} alt='img' />
                 </div>
 
-            <a href ='#contact'> className='scroll_down'</a>
+            <a href ='#contact'> </a>
 
             </div>
         </header>
