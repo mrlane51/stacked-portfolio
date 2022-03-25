@@ -13,8 +13,14 @@
     place-items: center
 }
 
-.about_me-img {
+.about_imgs {
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
+    background-image: var(--color-primary);
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    left: calc(50% - 17rem);
+    margin-top: 5rem;
 }

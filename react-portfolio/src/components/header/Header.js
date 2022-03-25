@@ -19,7 +19,7 @@ const Header = () => {
                     <img src={HeaderPhoto} alt='img' />
                 </div>
 
-            <a href ='#contact'> </a>
+            <a href ='/contact'> </a>
 
             </div>
         </header>
