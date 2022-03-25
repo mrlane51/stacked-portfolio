@@ -1,41 +1,42 @@
-import React from 'react'
-import './about.css'
-import { FaAward } from 'react-icons/fa'
-import Photo from '../../assets/pink-lopezz.JPG'
-
+import React from "react";
+import "./about.css";
+import Header from "../header/Header"
+import Nav from '../nav/Nav'
+import { FaAward } from "react-icons/fa";
+import Photo from "../../assets/pink-lopezz.JPG";
 
 const About = () => {
     return (
-        <section id='about'>
-            <h2>Get To Know</h2>
+        <section id="about">
+            <Header />
+            <Nav />
             <h2>About Me</h2>
 
-            <div className='container about_container'>
-                <div className='about_me'>
-
-                    <div className='about_imgs'>
-                        <img src={ Photo } alt='img' />
+            <div className="container about_container">
+                <div className="about_me">
+                    <div className="about_me-image">
+                        <img src={Photo} alt="img" />
                     </div>
                 </div>
 
-                <div className='about_content'>
-                    <div className='about_cards'>
-                        <article className='about_card'>
-                            <FaAward className='about_icons'></FaAward>
+                <div className="about_content">
+                    <div className="about_cards">
+                        <article className="about_card">
+                            <FaAward className="about_icons"></FaAward>
                             <h5>Experience</h5>
                             <small>3+ years</small>
                         </article>
 
-                        <article className='about_card'>
-                            <FaAward className='about_icons'></FaAward>
-                            <h5>Clients</h5>
-                            <small> 200+ people </small>
+                        <article className="about_card">
+                            <FaAward className="about_icons"></FaAward>
+                            <h5>Experience</h5>
+                            <small>3+ years</small>
                         </article>
 
-                        <article className='about_card'>
-                            <FaAward className='about_icons'></FaAward>
-                            <h5>Projects</h5>
-                            <small>18 Completed</small>
+                        <article className="about_card">
+                            <FaAward className="about_icons"></FaAward>
+                            <h5>Experience</h5>
+                            <small>3+ years</small>
                         </article>
                     </div>
                     <p>
@@ -44,11 +45,11 @@ const About = () => {
                         lorem ipsum dolor sit amet, consectetur
                     </p>
 
-                    <a href='/contact' className='btn btn-primary'>Let's Talk</a>
+                    <a href="#contact" className="btn btn-primary">Let's Talk</a>
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default About
+export default About;
