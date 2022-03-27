@@ -1,95 +1,104 @@
 import React from 'react'
 import './services.css'
-import Nav from '../nav/Nav'
-import { BsPatchCheckFill } from 'react-icons/bs'
+import { BiCheck } from 'react-icons/bi'
 
 const Services = () => {
     return (
         <>
-            <Nav />
             <section id='services'>
-                <h1> My Developer Skills: </h1>
+                <h2>Services: </h2>
 
-                <div className='container exp'>
-                    <div className='frontEnd'>
-                        <h3> FrontEnd Development </h3>
-                        <div className='content'>
-                            <article className='info'>
-                                <BsPatchCheckFill />
-                                <h4>HTML5</h4>
-                                <small className='text_light'>Experienced</small>
-                            </article>
-
-                            <article className='info'>
-                                <BsPatchCheckFill />
-                                <h4>CSS3</h4>
-                                <small className='text_light'>Experienced</small>
-                            </article>
-
-                            <article className='info'>
-                                <BsPatchCheckFill />
-                                <h4>JavaScript</h4>
-                                <small className='text_light'>Experienced</small>
-                            </article>
-
-                            <article className='info'>
-                                <BsPatchCheckFill />
-                                <h4>Bootstrap</h4>
-                                <small className='text_light'>Experienced</small>
-                            </article>
-
-                            <article className='info'>
-                                <BsPatchCheckFill />
-                                <h4>REACT</h4>
-                                <small className='text_light'>Experienced</small>
-                            </article>
-
-                            <article className='info'>
-                                <BsPatchCheckFill />
-                                <h4>EXAMPLE</h4>
-                                <small className='text_light'>Experienced</small>
-                            </article>
+                <div className="container">
+                    {/* UI/UX Design */}
+                    <article className="service">
+                        <div className="serviceHeader">
+                            <h3>UI/UX Design</h3>
                         </div>
-                    </div>
 
-                    {/* Backend Container */}
-                    <div className='backEnd'>
-                        <h3> BackEnd Development </h3>
-                        <div className='content'>
-                            <article className='info'>
-                                <BsPatchCheckFill />
-                                <h4>NODE JS</h4>
-                                <small className='text_light'>Experienced</small>
-                            </article>
-                            <article className='info'>
-                                <BsPatchCheckFill />
-                                <h4>MongoDB</h4>
-                                <small className='text_light'>Experienced</small>
-                            </article>
-                            <article className='info'>
-                                <BsPatchCheckFill />
-                                <h4>MYSQL</h4>
-                                <small className='text_light'>Experienced</small>
-                            </article>
-                            <article className='info'>
-                                <BsPatchCheckFill />
-                                <h4>Express</h4>
-                                <small className='text_light'>Experienced</small>
-                            </article>
-                            <article className='info'>
-                                <BsPatchCheckFill />
-                                <h4>Python</h4>
-                                <small className='text_light'>Experienced</small>
-                            </article>
-                            <article className='info'>
-                                <BsPatchCheckFill />
-                                <h4>REST APIs</h4>
-                                <small className='text_light'>Experienced</small>
-                            </article>
+                        <ul className="list">
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                        </ul>
+                    </article>
+                    {/* web-dev column */}
+                    <article className="service">
+                        <div className="serviceHeader">
+                            <h3>Web Development</h3>
                         </div>
-                    </div>
+
+                        <ul className="list">
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                        </ul>
+                    </article>
+                    {/* Content Creation */}
+
+                    <article className="service">
+                        <div className="serviceHeader">
+                            <h3>Content Creation</h3>
+                        </div>
+
+                        <ul className="list">
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                            <li>
+                                <BiCheck className="list-icon" />
+                                <p>lorem ipsum dolor sit amet, consectetur adip.</p>
+                            </li>
+                        </ul>
+                    </article>
                 </div>
-            </section>
+        </section>
         </>
     )
 }

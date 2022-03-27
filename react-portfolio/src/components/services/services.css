@@ -1,72 +1,10 @@
-h1 {
+h2 {
     text-align: center;
 }
 
-.exp {
+/* working in the skills css? why */
+.container {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
-    gap: 2rem;
-    margin: 0 auto;
-}
-
-.exp > div {
-    background: var(--color-primary);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: 500ms ease;
-}
-
-.exp > div:hover {
-    background: transparent;
-    border-color: var(--color-primary);
-    cursor: default;
-}
-
-.exp > div h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
-}
-
-.content {
-    display: grid;
-    grid-template-columns: 1fr, 1fr;
-    row-gap: 2rem;
-}
-
-.info {
-    display: flex;
-    gap: 1rem;
-}
-
-.info-icon {
-    margin-top: 6px;
-    color: var(--color-primary)
-}
-
-/* media Queries for phone size devices */
-@media screen and (max-width: 1024px) {
-    .exp {
-        grid-template-columns: 1fr;
-    }
-    .exp > div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-    .content {
-        padding: 1rem;
-    }
-}
-
-/* Media Queries for small devices */
-@media screen and (max-width: 600px) {
-    .exp {
-        gap: 1rem;
-    }
-    .exp > div {
-        width: 100%;
-        padding: 2rem 1rem;
-    }
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
 }

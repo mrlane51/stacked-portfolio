@@ -11,7 +11,7 @@ const Nav = () => {
         <a href='/'><GiMushroomHouse size={'25px'}/></a>
         <a href='/about'><GiPerson size={'25px'}/></a>
         <a href='/projects'><GiSecretBook size={'25px'}/></a>
-        <a href='/services'><Gi3DHammer size={'25px'}/></a>
+        <a href='/skills'><Gi3DHammer size={'25px'}/></a>
         <a href='/contact'><GiConversation size={'25px'}/></a>
         </nav>
     )
