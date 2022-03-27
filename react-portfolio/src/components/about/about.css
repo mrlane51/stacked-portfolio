@@ -1,10 +1,10 @@
-.about_container {
+.about {
     display: block;
     grid-template-columns: 35% 50%;
     gap: 15%;
 }
 
-.about_container {
+.about {
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
@@ -13,7 +13,7 @@
     place-items: center
 }
 
-.about_me-image {
+.about_me-img {
     border-radius: 2rem;
     overflow: hidden;
     width: 20rem;
@@ -64,13 +64,13 @@
     color: var(--color-primary);
 }
 
-.about__content p {
+.content p {
     margin: 2rem 0 2.6rem;
     color: red;
 }
 
 @media screen and (max-width: 1024px) {
-    .about_container{
+    .about{
         grid-template-columns: 1fr;
         gap: 0;
     }
@@ -78,7 +78,7 @@
         width: 50%;
         margin: 2rem auto 4rem;
     }
-    .about__content p {
+    .content p {
         margin: 1rem 0 1.5rem;
     }
 }
@@ -92,10 +92,10 @@
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
-    .about_content {
+    .content {
         text-align: center;
     }
-    .about_content p {
+    .content p {
         margin: 1.5rem 0;
     }
 }

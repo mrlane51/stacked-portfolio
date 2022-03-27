@@ -44,10 +44,10 @@ h1 {
     font-size: 3rem;
 }
 
-section {
+/* section {
     margin-top: 7rem;
     height: 100vh;
-}
+} */
 
 section > h2 {
     text-align: center;

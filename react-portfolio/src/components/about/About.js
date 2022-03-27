@@ -12,14 +12,14 @@ const About = () => {
             <Nav />
             <h2>About Me</h2>
 
-            <div className="container about_container">
+            <div className="container about">
                 <div className="about_me">
-                    <div className="about_me-image">
+                    <div className="about_me-img">
                         <img src={Photo} alt="img" />
                     </div>
                 </div>
 
-                <div className="about_content">
+                <div className="content">
                     <div className="about_cards">
                         <article className="about_card">
                             <FaAward className="about_icons"></FaAward>
