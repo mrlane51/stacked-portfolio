@@ -8,3 +8,67 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
 }
+.service {
+    background: rgb(80, 93, 214);
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+}
+
+.service:hover {
+    background: transparent;
+    border-color: black;
+    cursor: default;
+}
+
+.serviceHeader {
+    background: rgb(23, 103, 250);
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.serviceHeader h3 {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.list {
+    padding: 3rem;
+}
+
+.list li {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3px;
+}
+
+.list-icon {
+    color: red;
+    margin-top: 3px;
+}
+
+.list p {
+    font-size: 1rem;
+}
+
+/* media queries for ipad / tablet size devices*/
+@media screen and (max-width: 1024px) {
+    .container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .service {
+        height: auto;
+    }
+} 
+/* media queries for phone size devices */
+@media screen and (max-width: 600px) {
+    .container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
